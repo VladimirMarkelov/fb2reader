@@ -2,7 +2,7 @@
 name = "fb2reader"
 version = "0.1.0"
 authors = ["Vladimir Markelov <vmatroskin@gmail.com>"]
-edition = "2018"
+edition = "2021"
 keywords = ["fb2"]
 license = "Apache 2.0"
 description = "FB2 Reader library"
@@ -10,4 +10,5 @@ readme = "README.md"
 repository = "https://github.com/VladimirMarkelov/fb2reader"
 
 [dependencies]
+quick-xml = { version = "^0.26", features = ["encoding"] }
 thiserror = "1.0"
