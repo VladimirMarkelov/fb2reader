@@ -2,5 +2,5 @@
 //!
 
 pub mod types;
-pub mod xml;
+pub mod parse;
 pub mod err;
